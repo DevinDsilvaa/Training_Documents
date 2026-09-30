@@ -1,0 +1,74 @@
+PaperLive - DevOps with Multi-Cloud:
+
+Start Date: 29th Sep. 2026
+
+
+Day 1 - Orientation Sesion 1
+
+Day 2 - Orientation Lab. Session 2
+
+######################
+Day 2 | 30th Sep. 2026
+######################
+
+	Lab Requirements :::
+	
+	- Lab Environments :
+	
+	
+		DevOps Modules : 	Open-Source Tools/Services
+		
+		1 AWS Cloud Platform :::
+			
+			- To Create AWS Free-Tier Account ::
+			
+				- Active E_Mail_Id, Mobile_Number, Credit/Debit Card(Enabled with International Transactions)
+				
+				- 200 USD - 6 months
+				
+				- https://aws.amazon.com/console/
+				
+				- https://aws.amazon.com/resources/create-account/
+				
+				
+			- For DevOps Modules ::
+			
+				-> Create AWS EC2 Instances(Linux VMs) to Manage Open-Source DevOps Tools & Services.
+				
+				
+		2. GITHub Account :::
+		
+			- https://github.com/
+			
+			- Used to Maintain the Application Source Code and Project Documents 
+			
+			- Create GitHub Repositories to Manage the DevOps Components & Training Docs
+			
+			
+		
+		3. Install git client on Local Machine
+		
+			- https://git-scm.com/install/
+			
+		4. DockerHub Account
+		
+			- https://hub.docker.com/  # Create using existing Github 
+			
+			
+		5. Install Visual Studio Code on Local Machine 	- Develop the Source Code.
+			
+			- https://code.visualstudio.com/download
+
+		6. Install MobaXTerm/Putty on Local Machine - Windows Users
+		
+			- SSH Agent to connect to Remote Servers.
+			
+			- https://mobaxterm.mobatek.net/download-home-edition.html  
+				# Choose Installer Edition.
+				# Right clmobick & Extract 
+				# Goto to the Folder & Run the Exec.	
+
+		7. Install Terraform on Local Machine
+															
+			# https://developer.hashicorp.com/terraform/install
+
