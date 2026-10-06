@@ -72,3 +72,105 @@ Day 2 | 30th Sep. 2026
 															
 			# https://developer.hashicorp.com/terraform/install
 
+######################
+Day 3 | 5th Oct. 2026
+######################
+
+	- Setup Lab Infra-Structure ::::
+	
+			- For DevOps Modules ::
+			
+				-> Create AWS EC2 Instances(Linux VMs) to Manage Open-Source DevOps Tools & Services.		
+	
+	- Create AWS Free-Tier Account:
+	
+			- https://aws.amazon.com/console/
+			
+			- https://aws.amazon.com/resources/create-account/	
+			
+			
+	- Active AWS Console Access :
+	
+			- Login to AWS Console using root ID(Email_ID) and Password 
+			
+			- Types of AWS Users:
+			
+				- root User 	===> Administrator 		==> Manage the Account/Bills and other AWS IAM Users.
+				
+				- IAM User 		===> AWS IAM User_ID 	==> Create and Manage the AWS Resources.
+				
+				
+					- Authentication 	==>	Who can access?  
+					
+					- Authorization  	==> What action can be performed? ==> RBAC - Role Based Access Control					
+					
+					IAM --> Identity and Access Management Service
+					
+					
+	- Login to AWS Console using root user ID & Password :
+	
+	- Billing and Cost Management :
+	
+	- AWS Region :
+	
+	- Choose AWS Service :
+
+			
+		- IAM Service 			---> Create and Manage the IAM Service Components 
+			- IAM Service Components:
+			
+				- IAM User 
+				- IAM User Group
+				- IAM Policy
+				- IAM Role
+		
+			- Create IAM User based current project requirement.
+			
+			
+				-->  Create IAM User ID :::
+				
+						IAM User_ID and password  
+						
+						
+				- Various Authentication Modes :::
+				
+				
+					- Password 
+					- MFA 
+					- passkey 
+					- Token 
+					- CA Certs
+					- SSH Keys
+					
+					
+					
+					
+					--> Password based Authentication
+					
+					--> Token Based Authentication
+					
+					--> SSH Key based Authentication
+					
+						-> Public Key
+						-> Private Key 
+						-> Authorised Key
+				
+					--> Passwordless Authentication
+				
+		- AWS Compute Service 	---> EC2 Service ==> Create & Manage the Compute Environments
+										
+											Non-Prod Environments				Production Environments
+											
+												- Dev 
+												- Build 
+												- QA 
+												- UAT 								- Prod Servers1,2,3,4,5
+												
+			- Create EC2 Instances	
+
+		- S3 Service 			---> Create and Manage the storage
+			
+					
+				
+Next:
+	- IAM User, Group :::
