@@ -174,3 +174,71 @@ Day 3 | 5th Oct. 2026
 				
 Next:
 	- IAM User, Group :::
+
+
+######################
+Day 4 | 5th Oct. 2026
+######################
+
+		- IAM Service 			---> Create and Manage the IAM Service Components 
+			- IAM Service Components:
+			
+				- IAM User 
+				- IAM User Group
+				- IAM Policy
+				- IAM Roles
+				
+				
+				RBAC : -> Member/Admin/Lead
+				
+	- IAM User :	devopsadmin
+	
+	- Access Level :
+		
+		- IAM Policy 	==> Set the permissions based on the user/group role
+		
+		- IAM Group 	==> Set of IAM Users - Created based on the Teams/Profiles
+		
+		
+		
+		DevOps Team :
+		
+		
+		
+			- Create IAM User ===> Attach ===> AdministratorAccess Policy
+			
+			DevOps_Users_Grp:		
+				- devopsuser1,2,3,4			pl-devopsuser1
+			
+			Devops_Admin_Grp:
+				- devopsadmin1,2
+				
+			https://682033467551.signin.aws.amazon.com/console
+			
+			
+																
+			
+			
+				- IAM User&Group		---> 	Attach IAM Policy  to access Database
+				
+				- EC2 Instance (VM)		---> 	Create IAM Role with IAM Policy to access Database  	---> Attach IAM Role to EC2 Instance 
+										---> 	Create IAM Role with IAM Policy to access S3 Bucket  	---> Attach IAM Role to EC2 Instance 
+				
+				
+			CI CD :
+			
+				Artifact --> AWS S3 Buckets 
+				
+				
+				
+				- IAM Roles :::		pl-ec2-s3-iam-role1 	
+				
+				
+		6. Install MobaXTerm/Putty on Local Machine - Windows Users
+		
+			- SSH Agent to connect to Remote Servers.
+			
+			- https://mobaxterm.mobatek.net/download-home-edition.html  
+				# Choose Installer Edition.
+				# Right click & Extract 
+				# Goto to the Folder & Run the Exec.
