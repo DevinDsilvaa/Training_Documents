@@ -213,7 +213,6 @@ Day 4 | 5th Oct. 2026
 			Devops_Admin_Grp:
 				- devopsadmin1,2
 				
-			https://682033467551.signin.aws.amazon.com/console
 			
 			
 																
