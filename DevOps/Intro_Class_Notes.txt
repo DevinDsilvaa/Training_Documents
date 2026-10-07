@@ -241,3 +241,123 @@ Day 4 | 5th Oct. 2026
 				# Choose Installer Edition.
 				# Right click & Extract 
 				# Goto to the Folder & Run the Exec.
+
+
+
+
+
+##############
+7th Oct. 2026
+##############
+
+	EC2 Instance ::::
+	
+	
+		Remote Server Access :::
+		
+		-> Remote Server Access :::: 
+		
+		
+		-> Environments :::
+		
+			
+		DevOps Perspective :::
+		
+		
+			- Automate the Application Builds and Deployment 
+			
+			
+		-> Environments :::
+
+			Non-Prod Environments				==============>						Prod Environment
+		
+		
+				- Dev Environment (VM)
+				
+				- Build Environment (VM)
+				
+					- Build is process of compiling the source code and creating the artifacts(*.exec) 
+				
+				- Test 
+				
+					- QA (VM)
+					
+					- UAT 	(VM)					--------------->					Production Servers1,2,3,4,5 
+		
+		
+	Application Development Team :::
+		
+		--> Java Web Application 
+		
+				==> High Level Lang(source)
+				
+						- Compile 
+						- Create the Artifacts(Binaries)
+						
+						- Unit Level Testing  --> 100% 
+				
+				
+			
+			
+	
+	EC2 Service:
+	
+		-> Create the Virtual Machines(EC2 Instances)
+		
+			-> Remote Cloud Platform :::
+			
+				-> Establish a Secure Connection to the remote server
+				
+				
+						Authentication Mode:
+						
+							- Password based Authentication ==> Use during Sign-in with web browser
+							
+							- Token Based Authentication    ==> Can be used to access thru API/CLi/SDK
+							
+							- Key Based Authentication		==> Public_Key & Private_Key
+							
+							- Passwordless Authentication	==> Recommended only within the closed network
+							
+							
+		- Client_Server Architecture:::
+		
+			Server 							Jenkins,Kubernetes,Ansible,Terraform,
+				- Client1,2,3,4,5
+				
+		- Create EC2 Instance(VM)
+
+			- VM 
+			--> Region 
+			--> Name(Tag) of the Instance
+			--> AMI - Amazon Machine Image - Template to create the Virtual Machines	--> Linux(Ubuntu)
+			--> Instance Type - Define the CPU & RAM Requirements						--> t2.micro / t3.micro -> 1GM RAM & 1 CPU
+			--> Security Group 
+			--> Attach IAM Role 
+			
+			
+			
+		-> Public IP Address 		==> Used to access the EC2 Instance from External Network 
+		-> Private IP Address		==> Used to access the EC2 Instance within the internal Network
+		
+	
+		
+				3 - tier Application :
+					
+					--> Front-End Layer		(VM) 
+					
+					--> Application Layer 	(VM)
+					
+					--> Database Layer 		(VM)
+					
+					
+					
+					
+					--> 1 VM 		==> 750 Hrs/Month 
+					
+					--> 10 VMs 		==> 75 Hrs/Month 
+					
+		
+Next :::	
+
+	- Connect to Remote Server using SSH.
