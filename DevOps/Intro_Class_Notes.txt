@@ -361,3 +361,65 @@ Day 4 | 5th Oct. 2026
 Next :::	
 
 	- Connect to Remote Server using SSH.
+
+
+
+##############
+8th Oct. 2026
+##############
+
+	- Connect to Remote Server using SSH. ==> Port: 22
+	
+	
+		--> EC2 Instance Connect Option 		===> Using Web Browser 
+		
+		--> SSH Agent like MobaXTerm/Putty 
+
+			Install MobaXTerm/Putty on Local Machine - Windows Users
+		
+				- SSH Agent to connect to Remote Servers.
+				
+					- Remote Host Name 				:	Public IP Address  eg.: 65.2.127.126
+					
+					- User Name 					: 	ubuntu
+					
+					- Password ==> Private Key 		: 	*.pem				
+				
+				- https://mobaxterm.mobatek.net/download-home-edition.html  
+					# Choose Installer Edition.
+					# Right click & Extract 
+					# Goto to the Folder & Run the Exec.
+
+				
+		--> Using the Terminal/Command Prompt 	===> Linux/Mac Users 
+		
+					--> Mac Terminal ::::
+					
+				How to connect ::
+
+					1. Open a Mac Terminal
+
+					2. Locate or download your private key file
+
+					3. Ensure your key is not publicly viewable
+
+					chmod 400 "AWS_MLOps_KeyPair.pem"
+
+					4. Connect to your instance using its Public DNS
+
+					ssh -i "AWS_MLOps_KeyPair.pem" ubuntu@ec2-65-2-127-126.ap-south-1.compute.amazonaws.com
+							
+							
+--> Security Group ::::					
+
+		--> Used to allow access to the EC2 Instances :::
+		
+			- Inbound Rule 		===> Allow the Incoming Traffic to the EC2 Instance
+			
+			- Outbound Rule		===> Allow the Outgoing Traffic from the EC2 Instance
+			
+		--> For any Linux Instance by default port 22 is enabled in the Inbound Rule to allow SSH Connection 
+		
+			Set the Inbound Rules.
+			
+				
