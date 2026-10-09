@@ -422,4 +422,68 @@ Next :::
 		
 			Set the Inbound Rules.
 			
-				
+
+##############
+9th Oct. 2026
+##############
+
+	-> AWS Solutions Architect!
+	
+		- Infra-Structure Management Team
+		- Development Team 
+	
+	
+	-> VM ==> Desktop / Web / Mobile / AI & ML Model
+	
+	
+	-> DevOps Team : DevOps Architect
+	
+		-> Jenkins Servers / Kubernetes Cluster ==> VM 
+		
+		DevOps Team 
+		
+		
+		- DevOps Assessment 
+		
+		
+	-> Create IAM User,Group,Role 
+	
+	-> Create EC2 Instance
+	
+	-> Login to EC2 Instance
+	
+	
+	-> Roles :
+	
+		-> AWS Jr. Cloud Associates ==> 0 - 1 yr.
+		-> AWS Sr. Cloud Associates ==> 1 - 2.5 yr.
+		-> AWS Cloud Engineer ==> 3 - 5 yr.
+		
+		-> Solutions Architects Associates
+		-> Solutions Architects Professional 
+		-> AWS Cloud Consultants 
+	
+	
+	
+	-> GitHub Repositories ::::
+	
+		--> GitHub Account:
+		
+		
+		
+			--> Fork the Repository ==> Create a Copy of Remote GITHub Repository to another Remote GITHub Repository
+			
+					
+	--> AWS Console 
+	
+	--> AWS Cli
+	
+	--> AWS SDK - ==> Python 
+	
+	--> IAC Tools ==> Cloudformation/Terraform
+	
+	--> Scripting Languages : shell scripting/yaml scripting/python scripting/groovy scripting ==> Create Process Automation
+	
+	--> Programming Languages : Java/.Net/Python ==> Develop Business Applications
+	
+					
